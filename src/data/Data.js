@@ -27,6 +27,7 @@ export const SidebarData=[
     }, 
 
 ]
+//Analytics Cards Data
 export const CardData=[
     {
         title:"sales",
@@ -37,13 +38,15 @@ export const CardData=[
         barValue:70,
         value:"25, 970",
         png:UilUsdSquare,
-        series:{
+        series:[
+            {
             name:"Sales",
             data: [31, 40, 28, 51, 42, 109, 100],
 
         },
         
-    },
+   ],
+},
     {
         title:"Expenses",
         color:{
@@ -54,11 +57,13 @@ export const CardData=[
         barValue:60,
         value:"4, 270",
         png:UilClipboardAlt,
-        series:{
+        series:[
+        {
             name:"Expenses",
             data: [10, 25, 15, 30, 12, 15, 20],
 
         },
+    ]
     },
     {
         title:"Revenue",
@@ -66,14 +71,16 @@ export const CardData=[
             
             backGround:"linear-gradient(60deg, rgba(97, 26, 151, 1) 12%, rgba(5, 27, 6, 0.3631707704984225)88%)",
             boxShadow:"0px 10px 20px 0px #FDC0C7",
-        },
+        }, 
         barValue:60,
         value:"4, 270",
         png:UilMoneyWithdrawal,
-        series:{
+        series:[
+        {
             name:"Expenses2",
             data: [10, 100, 50, 70, 80, 30, 40],
 
         },
-    }
-]
+    ],
+    },
+];
