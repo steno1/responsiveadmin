@@ -9,6 +9,10 @@ import {
     UilMoneyWithdrawal
     
 } from "@iconscout/react-unicons"
+import Messi from "../imgs/Messi.jpg"
+import Ronaldo from "../imgs/Ronaldo.jpg"
+import Salah from "../imgs/Salah.jpg"
+
 export const SidebarData=[
     {icon:UilEstate,
         heading:"Dashboard"
@@ -84,3 +88,24 @@ export const CardData=[
     ],
     },
 ];
+//Recent update card data
+export const UpdatesData=[
+    {
+        img:Messi,
+        name:"Edozie",
+        noti:"Has ordered samsung watch 2500 battery",
+        time:" 40 seconds ago"
+    },
+    {
+        img:Ronaldo,
+        name:"Chibuzor",
+        noti:"Has ordered Apple watch 2500 battery",
+        time:" 50 seconds ago"
+    },
+    {
+        img:Salah,
+        name:"Michael",
+        noti:"Has ordered sony watch 2500 battery",
+        time:" 2 hours ago"
+    }
+]

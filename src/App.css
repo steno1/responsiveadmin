@@ -26,6 +26,14 @@ background-color:  #3C6255;
   width: 97%;
   border-radius: 2rem;
   background-color: #61876E;
-  overflow: hidden;
+  
   grid-template-columns: 11rem auto 20rem;
+  gap: 10px;
+}
+@media screen  and (max-width:1200px){
+  .AppGlass{
+    background-color: yellow;
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  }
 }
