@@ -9,10 +9,7 @@ function App() {
         <div className="AppGlass">
         <Sidebar/>
         <MainDash/>
-        <RightSide/>
-        
-        
-          
+        <RightSide/> 
         </div>
     </div>
   );

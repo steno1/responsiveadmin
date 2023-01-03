@@ -13,7 +13,7 @@ options:{
         height:"auto",
     },
     fill:{
-        colors:["#c85c8e"],
+        colors:["#3C79F5"],
         type:"gradient",
     },
     dataLabels:{
@@ -56,10 +56,9 @@ toolbar:{
 },
         }
 
-   return (
-    <div className="customerReview">
+   return <div className="customerReview">
 <Chart series={data.series} options={data.options} type="area"/>
     </div>
-   ) 
+   
 }
 export default CustomerReview;

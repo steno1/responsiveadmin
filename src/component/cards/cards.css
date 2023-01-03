@@ -13,3 +13,8 @@
         height: 9rem;
     }
   }
+  @media screen  and (max-width:1200px){
+    .cards{
+        width: 90%;
+    }
+  }
