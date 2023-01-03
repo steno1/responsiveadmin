@@ -77,6 +77,11 @@ display: none;
     .logo{
         display: none;
     }
+    .menu .menuItem:last-child{
+        position: relative;
+        bottom: 0.8rem;
+       
+    }
   }
   @media screen  and (max-width:768px){
     .sidebar{
