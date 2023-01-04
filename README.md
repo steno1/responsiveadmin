@@ -1,3 +1,9 @@
+This is a project done using react and some dependencies/libraries, likes apex-charts, framer-motions, react-circular-progress-bar etc
+It is a dashboard that shows total sales, Revenue, Expenses. Also, updates for Customers, Customers Review, recent Orders.
+what drove me to make this project is the quest for mobile responsiveness of a dashboard, through this project, i learnt how to make a dashboard both tablet and mobile 
+responsive.
+in this projects, you will learnt how to use the for-mentioned dependencies and many more
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
