@@ -8,24 +8,28 @@ import {SidebarData} from "../../data/Data.js"
 const Sidebar=()=>{
     const [selected, setSelected]=useState(0)
     const [expanded, setExpanded]=useState(true)
-    const sideVariants={
+    const sidebarVariants={
         true:{
-            left:"0",
-        }, 
+            left:"0%",
+        }, //if sidebar is expanded
+
         false:{
-            left:"-60%",
-        }
+            left:"-70%",
+        } //if sidebar is not expanded
     }
     return(
         <> 
+        {/* UilBars Responsiveness*/}
 <div className="bars" style={expanded?{left:"60%"}:{left:"5%"}}
 onClick={()=>setExpanded(!expanded)}>
             <UilBars/>
         </div>
-
+{/*  sidebar Responsiveness using motion from framer-motion */}
         <motion.div className="sidebar"
-        variants={sideVariants}
+        variants={sidebarVariants}
+        //using window.innerWidth<=768 is just for only mobile collapse
         animate={window.innerWidth<=768?`${expanded}`:""}>
+        
         
         
             {/* logo*/}

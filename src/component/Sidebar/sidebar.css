@@ -23,9 +23,11 @@
 .logo>img{
     height: 3rem;
     width: 3rem;
+    background-color: lightblue;
+    border-radius: 30%;
 }
 .logo>span>span{
-    color: var(--pink);
+    color: white;
 }
 /* menu */
 .menu{
@@ -51,7 +53,7 @@
  cursor: pointer;   
 }
 .active{
-    background: var(--activeItem);
+    background: white;
     margin-left: 0;
     border-radius: 0.7rem;
 }
@@ -59,17 +61,19 @@
     content: " ";
     width: 8px;
     height: 100%;
-    background: var(--pink);
+    background: lightblue;
     margin-right: calc(1rem-8px);
 }
 .menu .menuItem:last-child{
     position: absolute;
     bottom: 2.3rem;
     width: 100%;
+    
 }
 .bars{
     display: none;
 }
+/*Tablet Responsiveness */
 @media screen  and (max-width:1200px){
     .menuItem>span{
 display: none;
@@ -83,6 +87,7 @@ display: none;
        
     }
   }
+  /*Mobile Responsiveness */
   @media screen  and (max-width:768px){
     .sidebar{
         position: fixed;
@@ -107,13 +112,19 @@ display: block;
         position: fixed;
         top: 2rem;
         z-index: 9;
-        background: #B5D5C5;
+        background: transparent;
         padding: 10px;
         bottom: 10px;
         height: 10px;
         justify-content: center;
         align-items: center;
         border-radius: 20%;
+        color: green;
+        background-color: lightblue;
+    }
+    .bars:hover{
+     color:blue; 
+     background-color: azure;  
     }
   }
 
